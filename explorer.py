@@ -75,7 +75,7 @@ def manage_option(projects, masks, input_value):
 		if len(masks) > 0:
 			masks.pop()
 	elif input_value == 7:
-		masks = []
+		masks[:] = []
 
 	return 0
 
